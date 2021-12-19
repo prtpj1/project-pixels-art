@@ -7,8 +7,8 @@
 }
 
 #pixel-board {
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     border: 1px solid black;
     background-color: white;
     display: grid;
@@ -16,14 +16,17 @@
     grid-template-rows: repeat(var(--size), 1fr);
 }
 
-.pixelColored {
+/* .pixelColored {
     width: 40px;
     height: 40px;
     display: inline-block;
     border: 1px solid red;
-    background-color: white;
-}
-.pixel {
+    background-color: white; 
+}*/
+
+div .pixel {
+    height: 40px;
+    width: 40px;
     border: 1px solid black;
     background-color: white;
 }

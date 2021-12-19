@@ -12,6 +12,7 @@ function createGrid(size) {
   for (let i = 0; i < size * size; i+=1) {
     let divPixel = document.createElement('div');
     divPixel.classList.add('pixel');
+    //divPixel.style.height = '40px';
     pBoard.appendChild(divPixel);
   }
 }

@@ -9,6 +9,18 @@ colors[3].style.backgroundColor = 'green';
 
 colors[0].classList.add('selected');
 
+function pickColor(event) {
+  let colorSelected = document.querySelector('.selected');
+  colorSelected.classList.remove('selected');
+  event.target.classList.add('selected');
+  
+}
+
+colors[0].addEventListener('click', pickColor);
+colors[1].addEventListener('click', pickColor);
+colors[2].addEventListener('click', pickColor);
+colors[3].addEventListener('click', pickColor);
+
 function createGrid(size) {
   pBoard.style.setProperty('--size', size);
   for (let i = 0; i < size * size; i+=1) {

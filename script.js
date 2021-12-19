@@ -1,6 +1,7 @@
 let colors = document.getElementsByClassName('color');
 let pixels = document.getElementsByClassName('pixel');
 let pBoard = document.getElementById('pixel-board');
+let reset = document.querySelector('#clear-board');
 
 colors[0].style.backgroundColor = 'black';
 colors[1].style.backgroundColor = 'red';
@@ -20,6 +21,7 @@ colors[1].addEventListener('click', pickColor);
 colors[2].addEventListener('click', pickColor);
 colors[3].addEventListener('click', pickColor);
 
+
 function createGrid(size) {
   pBoard.style.setProperty('--size', size);
   let selectedPixel = document.getElementsByClassName('color selected');
@@ -36,3 +38,8 @@ function createGrid(size) {
   }
 }
 createGrid(5);
+
+reset.addEventListener('click', function () {
+  pBoard.innerHTML = '';
+  createGrid(5);
+});

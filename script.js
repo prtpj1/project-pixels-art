@@ -7,6 +7,8 @@ colors[1].style.backgroundColor = 'red';
 colors[2].style.backgroundColor = 'blue';
 colors[3].style.backgroundColor = 'green';
 
+colors[0].classList.add('selected');
+
 function createGrid(size) {
   pBoard.style.setProperty('--size', size);
   for (let i = 0; i < size * size; i+=1) {

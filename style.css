@@ -11,6 +11,9 @@
     height: 250px;
     border: 1px solid black;
     background-color: white;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
 }
 
 .pixelColored {
@@ -20,6 +23,7 @@
     border: 1px solid red;
     background-color: white;
 }
-div {
-    border: 1px solid blue;
+.pixel {
+    border: 1px solid black;
+    background-color: white;
 }

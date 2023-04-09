@@ -22,7 +22,7 @@ Também é possivel reiniciar o quadro deixando ele todo branco para colorir nov
 
 ## Link para visualizar o site do projeto:
 
-[Site do Projeto](https://prtpj1.github.io/lessons-learned/)
+[Site do Projeto](https://prtpj1.github.io/project-pixels-art/)
 
 ## Como rodar a aplicação?
 

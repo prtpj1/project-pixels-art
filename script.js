@@ -37,10 +37,10 @@ function createGrid(size) {
     pBoard.appendChild(divPixel);
   }
 }
-createGrid(5);
+createGrid(30);
 
 reset.addEventListener('click', function () {
   pBoard.innerHTML = '';
-  createGrid(5);
+  createGrid(30);
 });
 /* Just a little push test */

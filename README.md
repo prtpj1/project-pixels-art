@@ -25,11 +25,11 @@ Também é possivel reiniciar o quadro deixando ele todo branco para colorir nov
 [Site do Projeto](https://prtpj1.github.io/project-pixels-art/)
 
 ## Como rodar a aplicação?
-
-1. Clone o repositório: <br>
+- Clone o repositório: <br>
 `git clone git@github.com:prtpj1/project-pixels-art.git` 
-
-2. Inicie a aplicação: <br>
+- Acesse a pasta do projeto: <br>
+`cd project-pixels-art`
+- Inicie a aplicação: <br>
 `abra no seu navegador o arquivo index.html` 
 </br>
 </br>
